@@ -1,0 +1,100 @@
+\makeatletter
+\makeatother
+\documentclass[10pt,a4paper]{moderncv}
+
+\usepackage[numbers]{natbib}%
+
+
+
+
+\moderncvstyle{classic} %{classic}
+\moderncvcolor{red}%{blue} 
+
+\usepackage{pifont}
+\usepackage[top=23mm, bottom=30mm, left=22mm, right=22mm]{geometry}
+\usepackage{fontspec}
+\newfontfamily\Persianfont[Script=Arabic,Scale=1.2]{XB Niloofar}
+\makeatletter
+\TeXXeTstate=1
+\def\Persiantext#1{\begingroup\beginR\Persianfont#1\endR\endgroup}
+\makeatother
+\def\lr#1{\begingroup\beginL#1\endL\endgroup}
+\def\XePersian{\lr{XePersian}}
+
+\AtBeginDocument{\recomputelengths} 
+\firstname{MuhammadReza}
+\familyname{FatehiNia}
+%\resumename{Resume}
+\title{Data Scientist}
+\address{Mashhad, Iran}
+\phone{+98 915 629 7713}
+\email{m.r.fatehinia@gmail.com}
+\extrainfo{\faGithub\href{https://github.com/m-fatehi}{ m-fatehi}}% <===============
+
+\setlength{\hintscolumnwidth}{3cm}                        
+                                                          
+\begin{document}
+\maketitle
+
+\vspace{-5mm}
+%\section{Nationality}
+%\cventry{Iranian}{Kashmar}{}{}{}{}
+
+\section{Work Experiences}
+\cventry{June 2022 - Now}{Data Scientist}{Tose Anformatic FarzaPajohan}{Mashhad}{}{}
+\cventry{February 2022 - June 2022}{Researcher}{ Token Engineering Lab }{Ferdowsi University of Mashhad}{}{}
+\cventry{ 2021 -  2022}{Teacher Assistant}{Algorithm Design}{Ferdowsi University of Mashhad}{}{}
+
+
+
+\section{Education}
+\cventry{2019 - Now}{B.Sc.}{Ferdowsi University of Mashhad}{Mashhad}{Iran}{Computer Sicence}
+
+
+\section{Skills \& Experiences}
+\cventry{Programming Languages}
+{Scala, Python, C, Solidity, TypeScript} {}{}{}{}
+
+\cventry{Libraries}
+{Pandas, Numpy, Sk-learn, TensorFlow, Seaborn, Matplotlib} {}{}{}{}
+
+\cventry{Tools}
+{ Linux, Apache Spark, Git, Docker, HDFS, \LaTeX} {}{}{}{}
+
+
+
+\section{Projects}
+\cventry{}{} {}{}{}{}
+
+\subsection{UEBA}
+\cventry{}{} {}{}{}
+{It is a security analytics technology that uses machine learning algorithms to analyze patterns of behavior and detect anomalies that could indicate potential security threats.}
+\cventry{}{} {}{}{}{}
+
+
+\subsection{IPDR Analysis }
+\cventry{}{} {}{}{}
+{IPDR analysis is commonly used in network management and security operations to identify patterns of network behavior, detect anomalies, and troubleshoot network issues.The analysis of IPDR data can provide valuable insights into network performance, user behavior, and potential security threats.}
+
+\cventry{}{} {}{}{}{}
+
+
+\subsection{Parse StableCoin}
+\cventry{}{} {}{}{}
+{PARSE token is an algorithmic stablecoin built on top of Ampleforth elastic supply protocol.}
+
+
+
+\section{Honors \& Awards}
+
+
+
+\cvlistitem {Ranking fourth in the Torob Data Challenge 2023.}
+\cvlistitem {Achieving the highest GPA among  fellow students (19.49).}
+
+
+
+
+
+
+\end{document}
